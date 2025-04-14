@@ -1,0 +1,126 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fffdf9;
+}
+
+h1,
+h2,
+h5 {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: #ff69b4 !important;
+    /* Cotton candy pink */
+}
+
+.bg-light {
+    background-color: #fffafc !important;
+}
+
+/* Hero Section */
+#home {
+    background: linear-gradient(to right, #ffe4e1, #fff0f5);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #ff69b4;
+}
+
+/* Button tweaks */
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493;
+}
+
+.btn-outline-primary {
+    color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+#LOGO {
+    height: 90px;
+    width: 90px;
+}
+
+#mascot {
+    height: 390px;
+    width: 390px;
+    float: right;
+}
+
+#pp {
+    text-align: left;
+}
+
+.rotate {
+    width: 130px;
+    float: left;
+    /* adjust as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate1 {
+    width: 130px;
+    float: right;
+    /* adjust as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate2 {
+    width: 110px;
+    float: right;
+    /* adjust as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

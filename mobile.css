@@ -1,0 +1,129 @@
+/* Mobile Styles for Dinar Ice Cream */
+
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h5 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-primary {
+    color: #ff69b4 !important;
+}
+
+.bg-light {
+    background-color: #fffafc !important;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Carousel */
+#demo {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.carousel-inner img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Hero Section */
+#home {
+    background: linear-gradient(to right, #ffe4e1, #fff0f5);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#home .container {
+    text-align: center;
+}
+
+.rotate,
+.rotate1,
+.rotate2 {
+    width: 90px;
+    display: block;
+    margin: 0 auto 10px auto;
+    animation: spin 2s linear infinite;
+    float: none !important;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Flavors Section */
+#flavors .card {
+    margin-bottom: 1.5rem;
+}
+
+/* About Section */
+#mascot {
+    display: none;
+    /* Hide large mascot on mobile */
+}
+
+#about {
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493;
+}
+
+.btn-outline-primary {
+    color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff69b4;
+    color: #fff;
+}
